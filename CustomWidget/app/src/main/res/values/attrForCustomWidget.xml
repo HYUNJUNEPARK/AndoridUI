@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+커스텀 속성 정보 : 커스텀 속성 정보를 정의하면 activity_main.xml 과 같은 레이아웃 파일에서 새로운 태그를 사용할 수 있음
+CustomText : 커스텀 속성을 적용할 클래스 이름
+delimiter : 속성 이름
+string : 속성 타입
+-->
+
+<resources>
+    <declare-styleable name="CustomWidget">
+        <attr name="delimiter" format="string"/>
+    </declare-styleable>
+</resources>
